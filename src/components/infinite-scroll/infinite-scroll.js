@@ -1,6 +1,7 @@
 import { useCallback, useEffect, useRef, useState } from "react";
 import { ProductCard } from "./components/product-card";
 import { fetchNextProduct } from "./utils/fetch-next-product";
+import "./infinite-scroll.css";
 
 export function InfiniteScroll() {
   const [products, setProducts] = useState([]);
@@ -43,7 +44,7 @@ export function InfiniteScroll() {
   }, [fetchMore]);
 
   return (
-    <div>
+    <div className="infinite-scroll-container">
       {products.map((product, index) => (
         <ProductCard
           key={product.id}
