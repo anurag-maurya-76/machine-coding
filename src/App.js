@@ -1,11 +1,11 @@
 import "./App.css";
-import { Accordion } from "./components/accordion/accordion";
-import { accordionData } from "./constants/accordion-data";
+import { Kanban } from "./components/kanban/kanban";
+import { kanbanData } from "./constants/kanban-data";
 
 function App() {
   return (
     <div className="App">
-      <Accordion accordionData={accordionData} />
+      <Kanban kanbanData={kanbanData} />
     </div>
   );
 }
