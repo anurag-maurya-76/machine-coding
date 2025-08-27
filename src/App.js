@@ -1,10 +1,10 @@
 import "./App.css";
-import { InfiniteScroll } from "./components/infinite-scroll/infinite-scroll";
+import { AutoComplete } from "./components/auto-complete/auto-complete";
 
 function App() {
   return (
     <div className="App">
-      <InfiniteScroll />
+      <AutoComplete />
     </div>
   );
 }
