@@ -1,10 +1,10 @@
 import "./App.css";
-import { AutoComplete } from "./components/auto-complete/auto-complete";
+import { ThemeContainer } from "./components/context/styled-component";
 
 function App() {
   return (
     <div className="App">
-      <AutoComplete />
+      <ThemeContainer />
     </div>
   );
 }

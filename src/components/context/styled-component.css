@@ -1,0 +1,15 @@
+/* styles.css */
+.light {
+  background-color: #fff;
+  color: #333;
+}
+
+.dark {
+  background-color: #121212;
+  color: #fff;
+}
+
+.toggle-button {
+  padding: 8px 16px;
+  border: none;
+}
