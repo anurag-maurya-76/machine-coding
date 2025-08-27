@@ -1,0 +1,17 @@
+.timer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  font-size: 80px;
+}
+
+.timer > input {
+  border: none;
+  background: none;
+  outline: none;
+  color: #1f2631;
+  cursor: text;
+  font-size: 80px;
+  width: 100px;
+}
