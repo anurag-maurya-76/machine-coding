@@ -1,10 +1,10 @@
 import "./App.css";
-import { ThemeContainer } from "./components/context/styled-component";
+import { StarRating } from "./components/star-rating/star-rating";
 
 function App() {
   return (
     <div className="App">
-      <ThemeContainer />
+      <StarRating />
     </div>
   );
 }
